@@ -1,5 +1,6 @@
-PDF segmentar application 
+PDF segmenter Application 
 This is a Java Application that allow user to upload a PDF file,specify the number of cuts and download the segmented PdFs.
+
 #Process
 Upload a PDF file.
 Define the number of cuts based on whitespace between text blocks.
@@ -12,21 +13,21 @@ Save each segment as an individual PDF.
 3. Apache PDFBox
 
 #How to run the application
-1.Using IDE(eg: IntelliJ)
-2.Clone the project from the git
-3.Open the project 
-4.Ensure all the Maven dependencies are included
-5.Enter the path to the PDF that You want to segement
-6.Run the pdfsegmenter.java file
-7.The prompt will give you the PDF file path and the number of cuts
-8.The program will generate the segmented PDF files as the output .
+ 1. Using IDE(eg: IntelliJ)
+ 2. Clone the project from the git
+ 3. Open the project 
+ 4. Ensure all the Maven dependencies are included
+ 5. Enter the path to the PDF that You want to segement
+ 6. Run the pdfsegmenter.java file
+ 7. The prompt will give you the PDF file path and the number of cuts
+ 8. The program will generate the segmented PDF files as the output .
 
 #Usage Example
 eg 1: segmenting a PDF with 2 cuts
-1.Run the application
-2.Enter the path to the PDF
-3.Enter number of Cuts
-4.The application analyzes the vertical gaps in the PDF and creates 2 cuts
+1. Run the application
+2. Enter the path to the PDF
+3. Enter number of Cuts
+4. The application analyzes the vertical gaps in the PDF and creates 2 cuts
 producing 3 output segements:
 output.segment1.pdf
 output.segment2.pdf
@@ -34,9 +35,9 @@ output.segment3.pdf
 
 
 eg 2: #Handling a small PDF
-1.Run the application
-2.Enter the path to the PDF
-3.Enter number of Cuts(1)
+1. Run the application
+2. Enter the path to the PDF
+3. Enter number of Cuts(1)
 4. The PDF is small,the program will create just 1 cut,producing 2 output segments.
 output_segment1.pdf
 output_segment2.pdf
